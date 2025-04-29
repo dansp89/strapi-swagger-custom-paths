@@ -1,0 +1,27 @@
+{
+  "name": "strapi-swagger-custom-paths",
+  "version": "1.0.0",
+  "description": "Generate OpenAPI paths for Strapi custom routes from 01-custom.js files. Supports JS and TS.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "strapi",
+    "swagger",
+    "openapi",
+    "documentation",
+    "custom",
+    "plugin"
+  ],
+  "author": "DanSP89",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3"
+  }
+}
